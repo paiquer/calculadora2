@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale-1.0">
+<title>Calculadora</title>
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.
+css™ integrity="sha384-JcKb8q3iq]61gNV9KGb8thSsNjpSL@n8PARn9HuZOnIxN@hoP+VmmDGMN5t9UJOZ"
+crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC73h4AgTP5dUFOBvf08shuf57BaghqFfP1YxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+<link rel="stylesheet"href="css/estilos.css">
+</head>
+<body>
+<div class="principal",
+
+,div class="hijo">
+<select name ="calcular" id="operacion">
+<option selected>Operacion></option>
+<option>Sumar</option>
+<option>Restar</option>
+<option>Multiplicar</option>
+<option>Dividir</option>
+</select>
+<input class= "campos" type="text" placeholder="Escribe tu primer numero..." id="num1">
+<input class="campos" type="text" placeholder="Escribe tu segundo numero..." id="num2">
+<input type="text" class="novisible" name="calcular" id="resp">
+<input class="botones'" type="button"onclick="calcular()"value="Calcular">
+<input class= "botones"style="background: rbga(255, 0, 0, 0.664);" type="button" onclick="confirETodo()
+" value="Eliminar Todo">
+</div>
+<table class="table">
+<head>
+<tr>
+<th scope="col">Operacion</th>
+<th scope="col">Resultado</th>
+</tr>
+</thead>
+
+<tbody id="calculo">
+</tbody>
+
+<textarea name="" id="cal" class="noVisible" cols="30" rows="10">
+<tr>
+
+<td>{operacion}</td>
+<td>{Resultaado}</td>
+
+</tr>
+     </textarea>
+    </table>
+</div>
+<script src="js/acciones.js"></script>
+</body>
+</html>
